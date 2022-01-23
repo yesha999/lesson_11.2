@@ -158,15 +158,15 @@ a {
 
 /* Страничка подписки  */
 
-.box-green {
+.box-green {margin-bottom: 30px; margin-top: 30px; background-color: #E1F5EA; border-radius: 4px; padding: 20px 20px;
 
 }
 
-.box-purple {
+.box-purple {margin-bottom: 30px; margin-top: 30px;  background-color: #EBDCF9; border-radius: 4px; padding: 20px 20px;
 
 }
 
-.text-large {
+.text-large {font-size: 24px; font-weight: bold;
 
 }
 
@@ -174,5 +174,5 @@ a {
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    padding: 15px 20px
+    padding: 15px 20px;
 }
