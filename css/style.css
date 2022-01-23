@@ -151,7 +151,8 @@ a {
 
 /* Страничка популярного */
 
-.cover {
+.cover {width: 130px; margin-bottom: 30px; margin-right: 30px;
+
 
 }
 
