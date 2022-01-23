@@ -11,7 +11,11 @@ html {
     line-height: 25px
 
 }
-h2 {line-height: 35px;}
+
+h2 {
+    line-height: 35px;
+}
+
 
 main {
     width: 300px;
@@ -29,11 +33,13 @@ a {
 
 /* Колонки */
 
-.row {display: flex
+.row {
+    display: flex
 
 }
 
-.col {flex: auto;
+.col {
+    flex: auto;
 
 }
 
@@ -41,10 +47,33 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: grey;
+    font-size: 16px;
+    text-indent: 10px;
+
 
 }
 
-.button {background-color: #554AF0; color: white; width: 150px;  height: 50px; margin-bottom: 20px; border-radius: 4px; border-width: 1px;border-color: grey; font-size: 16px;
+.checkbox {
+    transform: scale(1.6);
+}
+
+
+.button {
+    background-color: #554AF0;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: grey;
+    font-size: 16px;
 
 }
 
@@ -52,7 +81,15 @@ a {
 
 /* Login*/
 
-.input-login {width: 300px; height: 50px; margin-bottom: 20px; border-radius: 4px; border-width: 1px;border-color: grey; font-size: 16px; text-indent: 10px;
+.input-login {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: grey;
+    font-size: 16px;
+    text-indent: 10px;
 
 
 }
@@ -68,43 +105,42 @@ a {
     padding-right: 10px;
     margin-top: 10px;
     padding-top: 5px;
-    margin-bottom: 10px;
     padding-bottom: 5px;
 
 }
 
 .genre-second {
-    background-color: #CBEDFF;margin-bottom: 20px;
+    background-color: #CBEDFF;
+    margin-bottom: 20px;
     padding-left: 10px;
     margin-right: 100px;
     padding-right: 10px;
     margin-top: 10px;
     padding-top: 5px;
-    margin-bottom: 10px;
     padding-bottom: 5px;
 
 }
 
 .genre-third {
-    background-color: #EEE5BD;margin-bottom: 20px;
+    background-color: #EEE5BD;
+    margin-bottom: 20px;
     padding-left: 10px;
     margin-right: 150px;
     padding-right: 10px;
     margin-top: 10px;
     padding-top: 5px;
-    margin-bottom: 10px;
     padding-bottom: 5px;
 
 }
 
 .genre-fourth {
-    background-color: #EBDCF9;margin-bottom: 20px;
+    background-color: #EBDCF9;
+    margin-bottom: 20px;
     padding-left: 10px;
     margin-right: 200px;
     padding-right: 10px;
     margin-top: 10px;
     padding-top: 5px;
-    margin-bottom: 10px;
     padding-bottom: 5px;
 
 }
