@@ -1,0 +1,137 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+html {
+    font-family: Arial;
+    line-height: 25px
+
+}
+
+main {
+    width: 300px;
+    margin: 0px auto;
+}
+
+p {
+    font-weight: 500;
+
+}
+
+a {
+
+}
+
+/* Колонки */
+
+.row {display: flex
+
+}
+
+.col {flex: auto;
+
+}
+
+
+/* Потом селекторы по классам */
+
+.text-input {
+
+}
+
+.button {
+
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+
+
+}
+
+
+/* Страничка жанров и тегов */
+
+.genre-first {
+    background-color: #E1F5EA;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 0px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+
+.genre-second {
+    background-color: #CBEDFF;margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+
+.genre-third {
+    background-color: #EEE5BD;margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 150px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+
+.genre-fourth {
+    background-color: #EBDCF9;margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 200px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+
+.tag {
+
+}
+
+/* Страничка популярного */
+
+.cover {
+
+}
+
+/* Страничка подписки  */
+
+.box-green {
+
+}
+
+.box-purple {
+
+}
+
+.text-large {
+
+}
+
+.button-link {
+
+}
